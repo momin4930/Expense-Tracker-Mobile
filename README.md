@@ -8,6 +8,14 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
    ```bash
    npm install
+   npm install @react-native-async-storage/async-storage
+   npm install @expo/vector-icons
+   npm install @react-native-picker/picker
+   npm install react-native-modal-datetime-picker
+   npm install react-native-chart-kit
+   npm install @react-navigation/stack
+   npm install react-native-screens react-native-safe-area-context
+   npm install -g expo-cli
    ```
 
 2. Start the app
