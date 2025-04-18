@@ -1,6 +1,6 @@
 # 💸 Expense Tracker App
 
-An elegently designed **React Native** app to help you track your expenses, analyze spending patterns, and stay in control of your finances — all in one place!
+An elegantly designed **React Native** app to help you track your expenses, analyze spending patterns, and stay in control of your finances — all in one place!
 
 ---
 
