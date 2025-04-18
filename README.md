@@ -1,58 +1,78 @@
-# Welcome to your Expo app 👋
+# 💸 Expense Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An elegently designed **React Native** app to help you track your expenses, analyze spending patterns, and stay in control of your finances — all in one place!
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   npm install @react-native-async-storage/async-storage
-   npm install @expo/vector-icons
-   npm install @react-native-picker/picker
-   npm install react-native-modal-datetime-picker
-   npm install react-native-chart-kit
-   npm install @react-navigation/stack
-   npm install react-native-screens react-native-safe-area-context
-   npm install -g expo-cli
-   ```
+### ✅ Add & Manage Expenses
+- Add expenses with a **title**, **amount**, **category**, and **date**.
+- Data is stored **locally** using `AsyncStorage` to persist between sessions.
 
-2. Start the app
+### 📊 Visualize Expenses with Charts
+- Interactive **line chart** that displays a **monthly breakdown** of your spending.
+- Uses `react-native-chart-kit` for smooth, responsive graphing.
+- Graph updates **dynamically** based on selected filters.
 
-   ```bash
-    npx expo start
-   ```
+### 🔍 Filter Your Expenses
+- Filter by:
+  - **Category** (Food, Transport, Entertainment, Utilities, Others)
+  - **Date** (Year-Month format)
+- Filters update both the **graph** and **expense list** in real-time.
 
-In the output, you'll find options to open the app in a
+### 🧾 Detailed Expense List View
+- Expenses are displayed in **stylish cards** showing title and amount.
+- Organized with a modern **dark UI** for easy reading and focus.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🧠 Persistent Storage
+- Built-in **AsyncStorage** ensures all your data remains safe even after closing the app.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🧭 Seamless Navigation
+- Smooth screen transitions with `React Navigation`.
+- Includes **custom back buttons** for better UX control.
 
-## Get a fresh project
+### 🌙 Dark Mode UI
+- Entire app uses a clean, neon-accented **dark theme** for modern aesthetics and user comfort.
 
-When you're ready, run:
+---
+
+## 📸 Screenshots
+
+### Homescreen
+<img height="950" alt="ETM" src="https://github.com/user-attachments/assets/9ad7614d-7cdc-4c94-ad41-4e992a187dcd" />
+
+### Add Expenses 
+<img height="950" alt="ETM" src="https://github.com/user-attachments/assets/6be45d6c-9d35-44d6-9dd7-5db5af637900" />
+
+### Visualize Expenses
+<img height="950" alt="ETM" src="https://github.com/user-attachments/assets/fefebeb7-a36d-4f8c-a79c-75ea84fe63ba" />
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native** (Expo)
+- **TypeScript**
+- **AsyncStorage** for data persistence
+- **react-native-chart-kit** for data visualization
+- **react-navigation** for screen transitions
+- **@react-native-picker/picker** for filter selection
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/expense-tracker-app.git
+cd expense-tracker-app
+npm install
+npx expo start
+npm install @react-native-async-storage/async-storage
+npm install @expo/vector-icons
+npm install @react-native-picker/picker
+npm install react-native-modal-datetime-picker
+npm install react-native-chart-kit
+npm install @react-navigation/stack
+npm install react-native-screens react-native-safe-area-context
+npm install -g expo-cli
